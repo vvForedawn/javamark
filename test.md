@@ -1,1 +1,0 @@
-Hello there! I’m **MacDown**, the open source Markdown editor for OS X.
