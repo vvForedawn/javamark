@@ -11,3 +11,5 @@
 `
 
 4.注意Java类型与Hibern的映射类型
+
+5.One2Many 映射过程中，通过在表的xxx.hbm.xml中的set元素来配置外键映射信息
