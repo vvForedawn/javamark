@@ -12,4 +12,6 @@
 
 4.注意Java类型与Hibern的映射类型
 
-5.One2Many 映射过程中，通过在表的xxx.hbm.xml中的set元素来配置外键映射信息
+5.One2Many 映射过程中，通过在表的映射文件xxx.hbm.xml中的set元素来配置外键映射信息<one-to-many>
+
+5.inverse来维护关联关系，避免重复调整SQL语句，影响性能，通过cascade来设置级联
