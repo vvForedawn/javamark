@@ -15,3 +15,10 @@
 5.One2Many 映射过程中，通过在表的映射文件xxx.hbm.xml中的set元素来配置外键映射信息<one-to-many>
 
 5.inverse来维护关联关系，避免重复调整SQL语句，影响性能，通过cascade来设置级联
+
+6.在HQL中，当select只有一个属性时，返回的是Object 而不是Object[]。  
+List< Object > list = query.list();
+
+for ( Object s : list ) {    
+ System.out.println(s);
+  }  
